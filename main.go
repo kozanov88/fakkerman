@@ -24,5 +24,10 @@ func main() {
   m := uint64(3)
   n := uint64(3)
 
-  fmt.Println(akkerman(m, n))
+  fmt.Println("m=3 n=3",akkerman(m, n))
+  
+  m = 4
+  n = 1  
+
+  fmt.Println("m=4 n=1",akkerman(m, n))
 }
